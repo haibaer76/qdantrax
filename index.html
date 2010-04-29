@@ -1,0 +1,29 @@
+<html>
+	<head><title>Q Antrax Tool</title></head>
+	<body>
+		<h1>Quick and Dirty Tool zur &Uuml;bersicht &uuml;ber individuell angeschaute und abgestimmte Antr&auml;ge zum BPT 2010.1 der Piratenpartei</h1>
+		<form method="post" action="antragsfabrikchecker2.php" target='_blank'>
+			<input type="radio" name="cat" value="programm"/>Programmantr&auml;ge<br/>
+			<input type='radio' name='cat' value='satzung'/>Satzungs&auml;nderungsantrag<br/>
+			<input type='radio' name='cat' value='sonstige'/>Sonstige Antr&auml;ge<br/>
+			Username im Wiki: <input type='text' name='user' size='30'/><br/>
+			Klarname im Wiki: <input type='text' name='klar' size='30'/> wenn != Username<br/>
+			<input type='submit' value='&Uuml;bersicht erzeugen'/>
+		</form>
+		<h2>Lizenz</h2>
+		Diese Webseite sowie die Software unterliegen der NWL (No Whining
+		Licence):<br/><br/>
+
+		You may use this, modify this, redistribute this provided you agree:
+		<ul>
+			<li>not to whine about this product</li>
+			<li>that there is no warranty of any kind.</li>
+			<li>retain this copyright in full.</li>
+		</ul>
+
+		<h2>Hinweis zum Datenschutz</h2>
+		Der eingegebene Benutzername dient nur zur Generierung der
+		&Uuml;bersichtstabelle und wird deswegen f&uuml;r einen sehr kurzen Zeitraum
+		nicht persistent im Arbeitsspeicher des Webservers vorgehalten. Deine IP-Adresse jedoch wird f&uuml;r 12 Monate gespeichert.
+	</body>
+</html>
